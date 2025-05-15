@@ -55,6 +55,10 @@ P2P_IP: "$YOUR_IP" - Пишем свой IP адрес сервера на ко�
 Сохраняем CTRL + O - Enter, CTRL + X
 
 ```
+nano docker-compose.yml
+```
+
+```
 docker compose up -d
 ```
 
