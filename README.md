@@ -114,7 +114,8 @@ aztec start --node --archiver --sequencer \
   --sequencer.validatorPrivateKey PrivateKey \
   --sequencer.coinbase Address \
   --p2p.p2pIp IP \
-  --p2p.maxTxPoolSize 1000000000
+  --p2p.maxTxPoolSize 1000000000 \
+  --sequencer.governanceProposerPayload 0x54F7fe24E349993b363A5Fa1bccdAe2589D5E5Ef
 ```
 
 Далее Вам нужно зайтив в Discord Aztec и получить роль "Apprentice" в ветке #operators | start-here. После чего можно создать валидатора, но есть нюанс. Всего валидаторов в сутки может зарегистрироваться 5-10 человек. Если у Вас появится ошибка, то увы Вы не успели, ожидайте следующий день.
