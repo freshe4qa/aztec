@@ -124,7 +124,7 @@ services:
   aztec-node:
     container_name: aztec-sequencer
     network_mode: host 
-    image: aztecprotocol/aztec:1.2.0
+    image: aztecprotocol/aztec:1.2.1
     restart: unless-stopped
     environment:
       ETHEREUM_HOSTS: ${ETHEREUM_RPC_URL}
@@ -148,7 +148,7 @@ services:
 
 ```
 source ~/.bashrc
-aztec-up 1.2.0
+aztec-up 1.2.1
 ```
 
 ```
